@@ -90,14 +90,14 @@ export default function Project(props) {
     </span>
   <div  className="card" data-aos="flip-left">
     
-    <img src={img1}/>
+    <img id="img" src={img1}/>
     <h1>Project-1</h1><hr/>
     <h3>Nybble: World's Cutest Open Source Quadruped Robotic Cat</h3>
     <p>Nybble is the lightest and fastest robotic cat that really walks. Built on an open source platform, Nybble has endless possibilities in the way you can "teach" tricks, behaviors, and CAT-itude as you program it and help it grow. You can even mount a Raspberry Pi to help Nybble think!
 </p>
   </div>
   <div  className="card" data-aos="flip-right">
-    <img src={img2}/>
+    <img id="img" src={img2}/>
     <h1>Project-2</h1><hr/>
     <h3>Kickstarter hackabot nano</h3>
     <p>Hackabot Nano is a very compact many-in-one plug-and-play Arduino Robot. The goal is to help everyone build a feature-rich robot without all the messy wiring. You simply connect the motors, plug in the sensors and controller and you may start programming. We even provide sample programs to help you get started. </p>
@@ -105,7 +105,7 @@ export default function Project(props) {
   </div>
   
   <div  className="card" data-aos="flip-left">
-    <img src={img3}/>
+    <img id="img" src={img3}/>
     <h1>Project-3</h1><hr/>
     <h3>Arduino Spider Robot</h3>
     <p>Robotic spider created by Matt Denton and his company Micromagic Systems. It took four years to create and design it. The robot is capable to transport one person and can circulate on any surface. The robot weighs 4,188 pounds (1,900 kg), is 9.18 feet (2.80 m) high and is powered by a Perkins Engines Turbo Diesel motor of 2.2L of 50Hp that is in charge of the hydraulic system. Several sensors around it help it to walk. The robot is controlled by a computer running the Linux operating system and HexEngine software, which controls the hydraulic solenoid in the legs.</p>
