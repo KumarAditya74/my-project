@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Great+Vibes&family=IM+Fell+English+SC&family=Rampart+One&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.Box{
+  height: 400px;
+  width: 70%;
+ color: rgb(56, 21, 121);
+ font-family: 'Caveat', cursive;
+  margin-left: 30%;
+  
+
+}
+.card{
+  width: 50%;
+  margin-left: 27%;
+  margin-bottom: 7%;
+  margin-top: 10%;
+
+}
+#title{
+  margin-left: 40%;
+  color: #df9629;
+}
+#btn4{
+  width: 52%;
+  height: 50px;
+  margin-left: 10px;
+  background-image:linear-gradient(blue,rgb(207, 198, 198)) ;
+} 
+.container4{
+  width: 100%;
+  height: 40%;
+ 
+ margin-left: 9%;
+}
+.container6{
+  display: block;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+}
+.container7{
+  
+display: block;
+    text-align: center;
+   background-size: cover;
+}
+ 
+#join{
+  margin-left: 22px;
+  color: #df9629;
+} 
+
+
+
+.text4{
+    display: inline-block;
+}
+#btn5{
+    width: 24%;
+    height: 4vmax;
+    background-image:linear-gradient(rgb(79, 16, 196),rgb(207, 198, 198)) ;
+ margin-left: 2%;
+ display: inline-block;
+}
+#text3{
+  margin-left: 40%;
+
+}
+#vid{
+  margin-left: 29%;
+  color: #df9629;
+  
+}
+.card2{
+  display: inline-block;
+  width: 30%;
+  margin-left: 2%;
+}
+#img11{
+  width: 30%;
+  border-radius: 100%;
+  margin-left:27%;
+ 
+ 
+}
+#text4{
+  margin-left: 40%;
+  color: burlywood;
+
+}
+.container5{
+    
+  width: 100%;
+  height: 5%;
+ 
+ 
+ overflow: auto;
+
+}
+
+#image{
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ 
+ margin-top: 5%;
+ margin-bottom: 5%;
+}
+.body{
+  overflow: hidden;
+}
+.card-body{
+  margin-top: 22vh;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
